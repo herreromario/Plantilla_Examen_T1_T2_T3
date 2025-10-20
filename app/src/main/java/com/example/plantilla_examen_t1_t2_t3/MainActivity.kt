@@ -20,7 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             Plantilla_Examen_T1_T2_T3Theme { // Tema de la App
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    MostrarLazyColumnDesplegable(modifier = Modifier
+                    MostrarCheckBox(modifier = Modifier
                         .padding(innerPadding)) // Hereda el modifier del padre
                 }
             }

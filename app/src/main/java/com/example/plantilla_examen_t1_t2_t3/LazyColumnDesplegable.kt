@@ -45,7 +45,7 @@ fun MostrarLazyColumnDesplegable(modifier: Modifier) {
                         )
                         IconButton(onClick = { abierto = !abierto }) {
                             Icon(
-                                imageVector = if (abierto) Icons.Filled.KeyboardArrowUp else Icons.Filled.KeyboardArrowDown,
+                                imageVector = if (abierto) Icons.Filled.KeyboardArrowUp else Icons.Filled.KeyboardArrowDown ,
                                 contentDescription = if (abierto) "Cerrar" else "Abrir"
                             )
                         }
